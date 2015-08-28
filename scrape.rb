@@ -58,9 +58,6 @@ end
 old_mailchimp_title = get_saved_title()
 new_mailchimp_title = get_mailchimp_title_text()
 
-puts "old: " + old_mailchimp_title
-puts "new: " + new_mailchimp_title
-
 if old_mailchimp_title.empty?
   save_new_title(new_mailchimp_title)
 elsif old_mailchimp_title != new_mailchimp_title
