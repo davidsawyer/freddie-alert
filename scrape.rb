@@ -49,7 +49,7 @@ def alert_da_masses()
       :to => key,
       :body => "- -\n\nFREDDIE ALERT!!!\n\nHurry and get your fresh new Freddie here: mailchimp.com/replyall"
     )
-    puts "Sent message to #{value}"
+    puts "Sent alert to #{value}"
   end
 end
 
